@@ -22,6 +22,9 @@
                     <li><b>Book Name: </b>{{ $item->book_name }}</li>                
                     <li><b>Book Author: </b>{{ $item->book_author }}</li>
                     <li><b>Book Description: </b>{{ $item->book_description }}</li>
+                    <li><b>Book Image: </b> <img src="/files/{{ $item->book_image }}" width="250px" alt=""></li>
+                    <li><b>Book File: </b> <a href="/files/{{ $item->book_file }}">Book</a></li>
+
                 </ul>
             @endforeach
         </div>

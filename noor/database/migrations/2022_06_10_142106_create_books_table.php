@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('book_description');
             $table->string('book_author');
             $table->string('book_image');
+            $table->string('book_file');
             $table->string('volunteer_id');
             $table->timestamps();
         });
